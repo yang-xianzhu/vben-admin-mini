@@ -33,16 +33,16 @@ withDefaults(defineProps<Props>(), {
     </a>
 
     <!-- Copyright Text -->
-    Copyright © {{ date }}
+    <!-- Copyright © {{ date }} -->
 
     <!-- Company Link -->
-    <a
+    <!-- <a
       v-if="companyName"
       :href="companySiteLink || 'javascript:void(0)'"
       class="hover:text-primary-hover mx-1"
       target="_blank"
     >
       {{ companyName }}
-    </a>
+    </a> -->
   </div>
 </template>

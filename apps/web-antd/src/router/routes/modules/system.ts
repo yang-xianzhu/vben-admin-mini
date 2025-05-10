@@ -30,15 +30,15 @@ const routes: RouteRecordRaw[] = [
         },
         component: () => import('#/views/system/menu/list.vue'),
       },
-      {
-        path: '/system/dept',
-        name: 'SystemDept',
-        meta: {
-          icon: 'charm:organisation',
-          title: $t('system.dept.title'),
-        },
-        component: () => import('#/views/system/dept/list.vue'),
-      },
+      // {
+      //   path: '/system/dept',
+      //   name: 'SystemDept',
+      //   meta: {
+      //     icon: 'charm:organisation',
+      //     title: $t('system.dept.title'),
+      //   },
+      //   component: () => import('#/views/system/dept/list.vue'),
+      // },
     ],
   },
 ];
