@@ -8,6 +8,8 @@ import { defineOverridesPreferences } from '@vben/preferences';
 export const overridesPreferences = defineOverridesPreferences({
   // overrides
   app: {
+    // 默认值，可不填
+    accessMode: 'frontend',
     name: import.meta.env.VITE_APP_TITLE,
   },
 });
